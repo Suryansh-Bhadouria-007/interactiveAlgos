@@ -1,0 +1,192 @@
+body {
+    background-image:url(images/back2.jpg); background-repeat:no-repeat;  
+}
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+nav ul {
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 158px;
+	border-radius: 10px;  
+	list-style: none;
+	position: absolute;
+	display: inline-table;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+        nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+	}
+		nav ul li:hover a {
+			color: #fff;
+		}
+	
+	nav ul li a {
+		display: block; padding: 25px 40px;
+		color: #757575; text-decoration: none;
+	}
+        nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #4b545f;
+			}
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
+.visual {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background: #1e1e1e;
+    border-radius: 6px;
+    margin: 100px 100px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,.8);
+}
+
+.visual .titulo {
+    width: 298px;
+    height: 14px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 14px;
+    text-align: center;
+    color: #bfbfbf;
+    font-weight: bold;
+    background: #121212;
+    border: #2d2d2d solid 1px;
+    margin-bottom: 30px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    font-family: Arial;
+}
+
+.visual form {
+    width: 240px;
+    height: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.visual form input[type=text], .login form input[type=password] {
+    width: 235px;
+    font-size: 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 40px;
+    border: none;
+    color: #bfbfbf;
+    background: #141414;
+    outline: none;
+    margin: 0;
+}
+
+.visual form input[type=text] {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top: #0b0b0b solid 1px;
+    background: #141414 url(http://dev.dhenriquez.com/test-img/icons/111-user.png) 10px center no-repeat;
+}
+
+.visual form input[type=password] {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: #0b0b0b 1px solid;
+    border-bottom: #353535 1px solid;
+    background: #141414 url(http://dev.dhenriquez.com/test-img/icons/54-lock.png) 10px center no-repeat;
+}
+
+.visual form .enviar {
+    width: 240px;
+    height: 18px;
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 30px;
+    border-radius: 6px;
+    border: none;
+    border-top: #4eb2a8 1px solid;
+    border-bottom: #161616 1px solid;
+    background: #349e92;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: 0 -1px #1d7464, 0 1px #7bb8b3;
+    font-family: Arial;
+}
+
+.visual .olvido {
+    width: 240px;
+    height: auto;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.visual .olvido .col {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.visual .olvido .col a {
+    color: #fff;
+    text-decoration: none;
+    font: 12px Arial;
+}
+.viss {
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+    background: #1e1e1e;
+    border-radius: 6px;
+    margin: 100px 100px;
+    color: #bfbfbf;
+    box-shadow: 0px 0px 50px rgba(0,0,0,.8);
+}
+.viss .titulo {
+    width: 350px;
+    height: 14px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 14px;
+    text-align: center;
+    color: #bfbfbf;
+    font-weight: bold;
+    background: #121212;
+    border: #2d2d2d solid 1px;
+    margin-bottom: 30px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    font-family: Arial;
+}
